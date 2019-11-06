@@ -1,0 +1,32 @@
+CreateNewPatient Joe    Garcia  432345673 M 11/10/1979
+CreateNewPatient Suzy   Walter  876523067 F 01/01/2010 
+CreateNewPatient Amelia Perez   876007654 F 12/05/1983 
+CreateNewPatient Tim    Ducrest 123282345 M 01/12/2000 
+CreateNewPatient Amelia Perez   876007654 F 12/05/1983 
+CreateNewPatient Suzy   Walter  987667654 F 09/20/1965  
+
+PrintAllPatients   
+
+AddPatientCheckup 5000 10/10/2015 5.8 210 160 33 178 88  123/78  
+AddPatientCheckup 5000 09/29/2016 5.8 215 165 29 312 91  129/86 
+AddPatientCheckup 5002 11/06/2016 4.1 70  180 69 120 80  101/78 
+AddPatientCheckup 5002 04/10/2017 4.2 75  198 65 120 81  100/76 
+AddPatientCheckup 5004 11/10/2015 5.1 150 188 58 58  89  99/53  
+AddPatientCheckup 5004 10/22/2016 5.1 157 210 68 135 84  99/50 
+AddPatientCheckup 5004 11/06/2017 5.1 168 182 48 70  88  99/56 
+AddPatientCheckup 5005 05/11/2017 5.2 165 180 49 70  88  100/56 
+AddPatientCheckup 5006 02/04/2017 5.9 170 202 36 301 90  126/87 
+AddPatientCheckup 5008 08/18/2017 5.4 180 165 42 200 105 105/76  
+
+PrintPatientHistory 5000 
+PrintPatientHistory 5002 
+PrintPatientHistory 5004 
+PrintPatientHistory 5006 
+PrintPatientHistory 5008 
+PrintPatientHistory 5010  
+
+PrintPatientCheckupSummary 5000 09/29/2016  
+PrintPatientCheckupSummary 5002 11/06/2016  
+PrintPatientCheckupSummary 5002 09/29/2017  
+PrintPatientCheckupSummary 5004 10/22/2016  
+PrintPatientCheckupSummary 5008 08/18/2017  

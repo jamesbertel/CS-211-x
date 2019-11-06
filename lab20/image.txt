@@ -1,0 +1,36 @@
+addImage C:/Users/Mayssaa/CS211/HW4/roadtrip 3840 jpg 3376x6000
+addImage C:/Users/Mayssaa/CS211/HW4/graduation 4370 jpg 6000×3376
+addImage C:/Users/Mayssaa/CS211/HW4/family 3330 jpg 2400×4240
+addImage C:/Users/Mayssaa/CS211/HW4/party 373 jpg 960×1280
+addImage C:/Users/Mayssaa/CS211/HW4/car 1770 jpg 2448×3264
+addImage C:/Users/Mayssaa/CS211/HW4/beach 302 jpg 2048×1365
+addImage C:/Users/Mayssaa/CS211/HW4/mountains 243 png 1280×798
+addImage C:/Users/Mayssaa/CS211/HW4/baby 960 png 1024×746
+addImage C:/Users/Mayssaa/CS211/HW4/selfie 257 bmp 512×512
+addImage C:/Users/Mayssaa/CS211/HW4/faces 80.7 jpeg 717×558
+addImage C:/Users/Mayssaa/CS211/HW4/random 299 jpeg 537×400
+addImage C:/Users/Mayssaa/CS211/HW4/summer 257 bmp 512×512
+slideshow
+viewImage car
+viewNextImage
+viewPreviousImage
+viewPreviousImage
+compressCurrentImage 0.8
+viewPreviousImage
+deleteCurrentImage
+viewPreviousImage
+viewNextImage
+viewNextImage
+viewNextImage
+viewNextImage
+deleteCurrentImage
+viewNextImage
+viewNextImage
+viewNextImage
+viewNextImage
+viewNextImage
+viewNextImage
+viewNextImage
+deleteCurrentImage
+deleteCurrentImage
+reverseSlideshow

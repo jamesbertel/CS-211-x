@@ -1,0 +1,101 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+const int SIZE = 10;
+
+void readData(int a[], int b[], int c[]);
+void printArray(int a[]);
+void reverseArray(int a[]);
+void longestSequence(int a[]);
+
+int main()
+{
+  int A[SIZE];
+  int B[SIZE];
+  int C[SIZE];
+
+  readData(A, B, C);
+  printArray(A);
+  printArray(B);
+  printArray(C);
+
+  cout << endl;
+
+  reverseArray(A);
+  printArray(A);
+
+  cout << endl;
+
+  longestSequence(A);
+  longestSequence(B);
+  longestSequence(C);
+}
+
+void readData(int a[], int b[], int c[])
+{
+  ifstream fin;
+
+  fin.open("arrays.txt");
+
+  if(!fin)
+    {
+      cout << "File not found" << endl;
+      //exit(0);
+    }
+  else
+    {
+      for(int i = 0; i < SIZE; i++)
+	fin >> a[i];
+      for(int j = 0; j < SIZE; j++)
+	fin >> b[j];
+      for(int k = 0; k < SIZE; k++)
+	fin >> c[k];
+    }
+
+}
+
+void printArray(int a[])
+{
+  for(int i = 0; i < SIZE; i++)
+    cout << a[i] << " ";
+  cout << endl;
+}
+
+void reverseArray(int a[])
+{
+  for(int i = SIZE - 1, j = 0; i > j; i--, j++)
+    {
+      int temp;
+      temp = a[j];
+      a[j] = a[i];
+      a[i] = temp;
+    }
+}
+
+void longestSequence(int a[])
+{
+  cout << "Longest sequence of {";
+
+  for(int i = 0; i < SIZE - 1; i++)
+    cout << a[i] << ",";
+
+  int longest = 1;
+  int tLong = 1;
+  for(int q = 1, p = 0; q < SIZE; q++, p++)
+    {
+     
+      if(a[q] == (1 + a[p]))
+	{
+	  longest++;
+	  if(longest >= tLong)
+	    tLong = longest;
+	}
+      else if(a[q] == a[p])
+	;
+      else
+      longest = 1;
+    }
+
+  cout << a[SIZE-1] << "} is " << tLong << ".\n";
+}

@@ -1,0 +1,16 @@
+Delete -1
+Insert Students 0
+Insert Welcome 0
+Insert Back 1
+Insert Ready 4
+Insert Get -1
+Insert To 6
+Insert Program 3
+Insert Very 3
+Insert Good 4
+Delete 1
+Insert Job 4
+Delete 6
+Insert CS211 1
+Delete 6
+Print

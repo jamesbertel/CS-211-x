@@ -1,0 +1,29 @@
+add ImagingAndPrinting 22979.00 23854.00 16151.00 25764.00 
+add Desktops 13197.00 12844.00 13888.00 15478.00 
+add Notebooks 17540.00 16029.00 18830.00 22545.00 
+add Workstations 2218.00 2147.00 2148.00 1786.00 
+add AuxiliarySystems 33303.00 35072.00 29650.00 -36750.00 
+add PersonalSystems 34303.00 32071.00 35650.00 40741.00 
+add EnterpriseSystems 27814.00 28183.00 20491.00 18651.00 
+add Software 3933.00 3913.00 4060.00 3586.00 
+add Corporate 22560.00 -23000.00 22800.00 29056.00 
+add FinancialServices 3498.00 3629.00 3819.00 3047.00 
+add OtherServices 22398.00 23520.00 34922.00 34935.00  
+add Notebooks 27540.00 18029.00 20830.00 22595.00 
+display 
+search Printing 
+search Desktops 
+search Corporate 
+search Systems 
+search Hardware 
+delete Other 
+delete Corporate
+delete PDA 
+delete Enterprise 
+update Desktops 3 12888.00  
+update Imaging 5 34000.00  
+update Auxiliary 2 12030.00 
+update Workstations 1 4322.00 
+display 
+calculateTotalSales highestLowestQuarter 
+save
